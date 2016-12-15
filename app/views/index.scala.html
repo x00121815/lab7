@@ -1,0 +1,11 @@
+@(message: String, name: String)
+@main("Home"){
+    <div class="row">
+		<div class="col-sm-12">
+			<div class="well">
+			  <h4>@message - @name</h4>
+			  <img src="@routes.Assets.versioned("images/test.png")" alt="testImage" />
+			</div>
+		</div>
+	</div>
+}
